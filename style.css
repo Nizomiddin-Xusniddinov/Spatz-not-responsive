@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* universal-code */
+.bgsame-button{
+    padding: 18px 31px;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(27, 37, 52, 1);
+    border-radius: 17px;
+}
+.wsame-button{
+    padding: 22px 22px 30px 36px;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: rgba(27, 37, 52, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+} 
+p{
+    font-size: 20px;
+    line-height: 32px;
+    color:rgba(27, 37, 52, 1);
+}
+.tittle{
+    font-size: 65px;
+    line-height: 78px;
+    color: rgba(27, 37, 52, 1);
+}
+.tittle span{
+    color: rgba(41, 160, 245, 1);
+}
+.little-tittle{
+    font-size: 32px;
+    line-height: 43px;
+    color: rgba(27, 37, 52, 1);
+}
+.fwdark{
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(96, 96, 96, 1);
+}
+.mtitle{
+    font-size: 35px;
+    line-height: 52px;
+    color: rgba(255, 255, 255, 1);
+}
+/* header_starting */
+header{
+    width: 100%;
+    background: url('./img/header\ bac.png') no-repeat center / cover;
+    padding-bottom: 500px;
+}
+/* ***  navbars_starting *** */
+header .navbars{
+    padding: 57px 46px;
+}
+header .navbars ul li .blue{
+    color: rgba(0, 130, 243, 1);  
+}
+header .navbars ul li a{
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(27, 37, 52, 1);
+}
+header .navbars .bgsame-button{
+    background-color: rgba(27, 37, 52, 1);
+    margin-bottom: 80px;
+}
+/* *** header_title_starting *** */
+header .header_title{
+    text-align: center;
+    position: relative;
+}
+header .header_title h2{
+    padding-top: 117px;
+    padding-bottom: 138px;
+    font-size: 80px;
+    line-height: 105px;
+    color: rgba(27, 37, 52, 1);
+}
+header .header_title h2 span{
+    color: rgba(41, 160, 245, 1);
+}
+header .header_title .wsame-button i{
+    color: rgba(41, 160, 245, 1);
+    margin-left: 20px;
+}
+header .header_title .img{
+    position: absolute;
+    top: 50px;
+}
+/* section_starting */
+section{
+    width: 100%;
+}
+section .img1{
+    position: absolute;
+    top: 200%;
+}
+/* *** perfect_starting *** */
+section .perfect{
+    padding-top: 500px;
+    padding-bottom: 160px;
+}
+section .perfect .tittle{
+    margin-bottom: 27px;
+}
+section .perfect p{
+    margin-bottom: 51px;
+}
+section .perfect .safe{
+    border-radius: 17px;
+}
+section .perfect .box{
+    margin-bottom: 10px;
+}
+section .perfect .box img{
+    margin-right: 20px;
+}
+/* *** capture_starting *** */
+section .capture{
+    background-color: rgba(246, 246, 246, 1);
+}
+section .capture .white{
+    font-size: 30px;
+    line-height: 42px;
+    color: rgba(255, 255, 255, 1)  ;
+    bottom: 107px;
+    left: 40px;
+}
+section .capture .img{
+    position: relative;
+}
+section .capture .texts{
+    position: absolute;
+    left: 40px;
+    top: 96px;
+}
+section .capture .texts .coderimg{
+    margin-bottom: 19px;
+}
+section .capture .box1{
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+}
+section .capture .box1 .little-tittle{
+    margin-bottom: 30px;
+}
+section .capture .app{
+    margin-top: 43px;
+}
+section .second {
+    margin-top: 42px;
+}
+section .capture .second .box {
+    background-color: rgba(27, 37, 52, 1);
+    padding: 63px 15px 26px ;
+    text-align: center;
+    border-radius: 20px;
+} 
+section .capture .second .box .little-tittle{
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+}
+section .capture .second .box .bgsame-button{
+    background-color: rgba(41, 160, 245, 1);
+    
+}
+section .capture .second .all{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 40px;
+}
+/* *** software_starting *** */
+section .software{
+    padding-top: 135px;
+    padding-bottom: 175px;
+}
+section .software .tittle{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+}
+section .software .bgbox{
+    padding: 39px 45px 49px 40px;
+    background-color: rgba(27, 37, 52, 1);
+    border-radius: 20px;
+}
+section .software .bgbox p{
+    color: rgba(255, 255, 255, 1);
+}
+section .software .box{
+    margin-bottom: 38px;
+}
+section .software .box .mtitle{
+    color: rgba(171, 171, 171, 1);
+    margin-bottom: 0px;
+}
+/* *** featured_starting *** */
+section .featured{
+    padding: 140px 0px;
+    background-color: rgba(27, 37, 52, 1);
+}
+section .featured .text{
+    margin-bottom: 60px;    
+}
+section .featured .text .tittle{
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 60px;
+}
+section .featured .text .bigs{
+    color: rgba(255, 194, 38, 1);
+    font-size: 42px; 
+    margin-left: 30px; 
+    margin-bottom: 60px; 
+}
+section .featured p{
+    margin-bottom: 134px;
+    color: rgba(171, 171, 171, 1);
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 90px;
+}
+section .featured .name{
+    font-size: 35px;
+    line-height: 49px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0px;
+}
+section .featured .rate{
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 10px;
+}
+section .featured i{
+    font-size: 35px;
+    color: rgba(255, 194, 38, 1);
+}
+/* *** brands_starting *** */
+section .brands{
+    padding-top: 159px;
+    padding-bottom: 170px;
+}
+section .brands .bdimg{
+    margin-bottom: 180px;
+}
+section .brands .loved{
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 71px;
+    color: rgba(27, 37, 52, 1);
+}
+section .brands .box .little-tittle{
+    margin-top: 27px;
+    margin-bottom: 25px;
+}
+section .brands .box p{
+    color: rgba(96, 96, 96, 1);
+    margin-bottom: 38px;
+
+}
+section .brands .box .texts .name{
+    font-size: 20px;
+    line-height: 28px;
+
+}
+section .brands .box .texts .date{
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(96, 96, 96, 1);
+}
+section .brands .box .texts .fa-circle{
+    font-size: 5px;
+    color: rgba(41, 160, 245, 1);
+    margin-right: 7px;
+    margin-left: 7px;   
+}
+section .brands .bgsame-button{
+    margin-top: 100px;
+    background-color: rgba(41, 160, 245, 1);
+}
+section .brands .bgsame-button i{
+    margin-left: 10px;
+}
+/* *** unleash_starting *** */
+section .unleash{
+    padding-top: 138px;
+}
+section .unleash .bgsame-button{
+    background-color: rgba(27, 37, 52, 1);
+    color: rgba(255, 255, 255, 1);
+}
+section .unleash .bgsame-button i{
+    margin-left: 10px;
+    color: rgba(41, 160, 245, 1);
+}
+section .unleash .tittle{
+    margin-bottom: 82px;
+}
+/* footer_starting */
+footer{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-color: rgba(27, 37, 52, 1);
+}
+footer .logo{
+    margin-bottom: 22px;
+}
+footer .aboutp{
+    letter-spacing: 0.2px;
+    color: rgba(171, 171, 171, 1);
+    margin-bottom: 112px;
+} 
+footer .fa-facebook-f{
+    color: rgba(255, 255, 255, 1);
+}
+footer .ul{
+    padding: 60px;
+    border-radius: 30px;
+    background-color: rgba(40, 51, 67, 1);
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+footer ul li{
+    margin-bottom: 18px;
+}
+footer ul li a{
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.36px;
+    color: rgba(171, 171, 171, 1) ;
+}
+footer ul .lititle{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    color: rgba(255, 255, 255, 1);
+}
